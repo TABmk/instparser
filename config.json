@@ -1,0 +1,23 @@
+{
+  "_pathComment" : "This path will be created and each downloaded profile will be in own folder, like ./out/tab_mk",
+  "outputPath" : "./out/",
+  "_loggerComment" : "Some info for costum logger, you can change it whatever you like. Colors are for 'chalk' module and can be also turned off as all logs.",
+  "logger" : {
+    "enabled" : true,
+    "noColors" : false,
+    "data" : {
+      "info"  : { "pref" : "[Info]",  "color" : "green"  },
+      "log"   : { "pref" : "[LOG]",   "color" : "gray"   },
+      "warn"  : { "pref" : "[Warn]",  "color" : "yellow" },
+      "error" : { "pref" : "[ERROR]", "color" : "red"    }
+    }
+  },
+  "_limitsComment" : "Limits defines how many required per page and pages itself. Pages can be also a string 'ALL' to get all content. For posts limit big values is recommended, like 20 (probably this is instagram posts limit per page, i'm not sure).",
+  "pageLimit" : 1,
+  "postsLimit" : 20,
+  "_saveDataCommnet" : "Option for saving main data about user. (bio, subs, name, id, etc.)",
+  "saveData" : false,
+  "_photoQualityComment" : "You can choose quality which you want to download: src, low, high. If you need best - set 'src', because high is compressed.",
+  "photoQuality" : "src",
+  "cookie" : ""
+}

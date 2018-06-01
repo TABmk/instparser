@@ -1,0 +1,16 @@
+{
+  "name": "instparser",
+  "version": "1.0.0",
+  "description": "download instagram profiles",
+  "main": "index.js",
+  "keywords": [
+    "instagram"
+  ],
+  "author": "TAB_mk",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "image-downloader": "^3.4.0",
+    "node-fetch": "^2.1.2"
+  }
+}
