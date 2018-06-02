@@ -66,7 +66,7 @@ if (NAME && CONFIG.cookie) {
 			fs.mkdirSync(path);
 			LOGGER(`Creating folder for current account. Path - ${path}`);
 		}
-		// if SDATA constant set to true, than we try save data to file data.json
+		// if SDATA constant set to true, then we try save data to file data.json
 		// in end path (outPath+name)
 		if (SDATA) INST.saveProfileData(data, path).catch(e => {
 			// You'll be informed about errors in writing data
